@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar{
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,7 +18,7 @@
     padding: 0rem 2rem;
 }
 
-.icon {
+.icon{
     padding: 1.5rem 2rem;
     border-radius: 50%;
     background: url("./img/logo_nav.png");
@@ -26,22 +26,22 @@
     background-size: cover;
 }
 
-.menu ul {
+.menu ul{
     list-style: none;
     display: flex;
     position: absolute;
-    top: 1.5rem;
+    top:1.5rem;
     right: 5rem;
     gap: 1.5rem;
 }
 
-.menu ul li a {
+.menu ul li a{
     text-decoration: none;
     color: #fff;
     padding: 1rem 0;
 }
 
-header {
+header{
     width: 100%;
     height: 120vh;
     background: url("./img/banner_bg.png") rgba(13, 17, 22, 0.7);
@@ -52,14 +52,14 @@ header {
     color: #fff;
 }
 
-.header-container {
+.header-container{
     padding-top: 56vh;
     padding-left: 10%;
     display: flex;
     gap: 4rem;
 }
 
-.profile-photo {
+.profile-photo{
     margin: 2rem 0;
     background: url("./img/photo.png") rgba(13, 17, 22, 0.7);
     background-position: center;
@@ -69,23 +69,151 @@ header {
     height: 200px;
 }
 
-.main-info {
+.main-info{
     font-family: "Montserrat", serif;
     padding: 2rem 0;
 }
 
-.main-info h1 {
+.main-info h1{
     padding: 2rem 0;
     font-size: 48px;
 }
 
-.main-info ul {
+.main-info ul{
     list-style: none;
     font-size: 36px;
     display: flex;
     gap: 1rem;
 }
 
-.main-info ul li a {
+.main-info ul li a{
     color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*Style section projects*/
+.projects{
+    padding: 5rem;
+    height: 140vh;
+    background-color: #F7F2EC;
+}
+
+.projects h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    padding-bottom: 5rem;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    gap: 5%;
+}
+
+.column{
+    width: 50%;
+    height: 100%;
+
+}
+
+.row{
+    height: 35%;
+}
+
+.project-card{
+    display: flex;
+    height: 70%;
+}
+.project-info{
+    width: 50%;
+    padding-top: 1.5rem;
+}
+
+.project-info h3{
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    color: #D78C50;
+}
+
+.project-info p{
+    font-family: "Montserrat", serif;
+}
+
+.info-left{
+    text-align: right;
+    margin-right: 1rem;
+}
+.info-right{
+    margin-left: 1rem;
+}
+
+.used-tools ul{
+    display: flex;
+}
+
+.used-tools ul li{
+    list-style: none;
+    font-size: 28px;
+    color: #0F213C;
+    padding: 0.5rem 0.5rem;
+}
+
+.used-tools ul li a{
+    text-decoration: none;
+    color: #0F213C;
+}
+
+.tools-left ul{
+    justify-content: right;
+}
+
+.project-image{
+    width: 60%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.project-image a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-1{
+    background: url("./img/img-project-tiramisu.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-2{
+    background: url("./img/img-project-paleta.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-3{
+    background: url("./img/img-project-wiobl.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-4{
+    background: url("./img/img-project-wordle.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-5{
+    background: url("./img/img-project-neutral.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-6{
+    background: url("./img/img-project-fruits.png");
+    background-position: center;
+    background-size: cover;
 }
