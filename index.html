@@ -19,25 +19,37 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <title>Portfolio Luisa Mejia - UX/UI Designer</title>
+
 </head>
 
 <body>
     <section class="navbar">
-        <div class="icon">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div class="icon">
 
-        </div>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto gap-3 pe-4">
+                            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about-us" >About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </section>
     <header>
         <div class="header-container">
@@ -52,9 +64,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
 
-    </section>
     <section class="projects" id="projects">
         <h2>My Projects</h2>
         <div class="container">
@@ -124,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="column column-down">
                 <div class="row">
                     <div class="project-card">
                         <div class="project-image image-4"><a href="https://github.com/luisame00/wordle-project"></a>
@@ -133,7 +143,7 @@
                             <h3>Wordle Flask</h3>
                             <p>In this Project I gave live to welll-known game, Wordle. Each player had an individual
                                 sesión, but with the option of maintaining the game progress. </p>
-                            <div class="used-tools">
+                            <div class="used-tools used-tools-down-rs">
                                 <ul>
                                     <li><i class="fa-brands fa-figma"></i></li>
                                     <li><i class="fa-brands fa-python"></i></li>
@@ -152,7 +162,7 @@
                             <p>I designed this website thinking of trendy fashion we may find in popular sites like
                                 Pinterest, but dedicated to a business that sells only neutral color clothes: White,
                                 black and beige. Still making it fun and youthful.</p>
-                            <div class="used-tools">
+                            <div class="used-tools used-tools-down-rs">
                                 <ul>
                                     <li><i class="fa-brands fa-figma"></i></li>
                                     <li><i class="fa-brands fa-react"></i></li>
@@ -172,7 +182,7 @@
                             <p>In this Project I re-imagined a popular fruit and vegetable local shop. Adding different
                                 design elements that complete the business as well as new functioanalities such a
                                 récipe blog and récipe page</p>
-                            <div class="used-tools">
+                            <div class="used-tools used-tools-down-rs">
                                 <ul>
                                     <li><i class="fa-brands fa-figma"></i></li>
                                     <li><i class="fa-solid fa-image"></i></li>
@@ -191,12 +201,7 @@
             <h2>About Me</h2>
             <div class="line-about">
             </div>
-            <p>I feel most confident designing websites and building prototypes (wireframes and high-fidelity Mock-Ups)
-                centered in
-                enhanced user experience, functionality, and visual appeal. I have also had exposure to a variety of
-                tools and
-                programming languages: HTML, CSS, JavaScript,Wordpress, Bootstrap, React, GitHub, PHP, Phython, JQuery
-                among others.</p>
+            <p>I feel most confident designing websites and building prototypes (wireframes and high-fidelity Mock-Ups) centered in enhanced user experience, functionality, and visual appeal. I have also had exposure to a variety of tools and programming languages: HTML, CSS, JavaScript,Wordpress, Bootstrap, React, GitHub, PHP, Python, JQuery among others.</p>
             <div class="links-about">
                 <div class="icon-link-1">
                     <img class="icon-coffee" src="https://img.icons8.com/color/48/figma--v1.png" alt="coffee-beans-" />
@@ -236,7 +241,7 @@
             <div class="img-gallery-6"></div>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
         <div class="content-footer">
             <div class="column-footer info-footer">
                 <div class="logo-footer">
